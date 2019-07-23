@@ -9,7 +9,7 @@ x = random.randint(0, 7)
 y = random.randint(0, 7)
 print("the random number is"), x, ("this time")
  
-sense.set_pixel(x, y (0, 0, 255))
+sense.set_pixel(x, y, (0, 0, 255))
 
 time.sleep(1)
 sense.clear()
